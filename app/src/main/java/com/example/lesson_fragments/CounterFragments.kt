@@ -36,7 +36,7 @@ class CounterFragments : Fragment() {
             .beginTransaction() // Начинаем транзакцию по изменению наших фрагментов
             .addToBackStack(null)
             .replace(R.id.fragmentContainer, fragment)
-            .commit()
+            .commit()  //закрываем транзакцию а то пиздец
     }
 
     private fun goBack() { // Данная функция типа как кнопка назад
