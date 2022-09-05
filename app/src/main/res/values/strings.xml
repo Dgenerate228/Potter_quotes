@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">"Garry Potter" quotes</string>
+    <string name="screen_label">Citate #%1$d</string>
+    <string name="go_back">Go back</string>
+    <string name="launch_next">Next quote</string>
+
+</resources>
